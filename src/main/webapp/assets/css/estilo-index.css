@@ -1,0 +1,97 @@
+.planes{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.botonPlan a{
+    color: white;
+    border-radius: 18px;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.botonPlan:hover a{
+    background:  #ff9933;
+    color: white;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.botonPlan:active a{
+    background:  #e67300;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.card-header{
+  background-color:  #c4c4a1;
+}
+
+.card{
+    border-color: #000;
+}
+
+footer{
+    background: black;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.body{
+    position: relative;
+    padding-bottom: 8em;
+    min-height: 100vh;
+    background: #D5D8DC;
+
+}
+
+#hPlan{
+    text-align: center;
+    padding: 40px;
+    background-color: #808B96;
+}
+
+.prueba a{
+    color: white;
+    
+}
+
+.prueba .iniciarsesion:hover a {
+    color: #ff9933;
+    
+}
+
+.prueba .regis:hover a {
+    color: #ff9933 ;
+    
+}
+
+.biografias{
+    font-family: inherit;
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 50px;
+    color: white;
+    margin: 0;
+}
+
+.totalBio{
+    background: #212F3D;
+    padding-top:  39px;
+    margin:0;
+    padding-bottom: 10px;
+}
+
+.imagenLogoBio{
+  text-align: center;
+  padding-top: 10px;
+}

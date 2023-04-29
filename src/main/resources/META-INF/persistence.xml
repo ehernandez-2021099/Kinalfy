@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <!-- Define Persistence Unit -->
+    <persistence-unit name="reproductor_musical_pu">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>jdbc/__reproductor_musical</jta-data-source>
+        <class>com.kinalfy.models.domain.Album</class>
+        <class>com.kinalfy.models.domain.Anuncios</class>
+        <class>com.kinalfy.models.domain.Artista</class>
+        <class>com.kinalfy.models.domain.AsignacionAlbumArtista</class>
+        <class>com.kinalfy.models.domain.AsignacionAnuncios</class>
+        <class>com.kinalfy.models.domain.AsignacionGeneroArtista</class>
+        <class>com.kinalfy.models.domain.AsignacionPlanes</class>
+        <class>com.kinalfy.models.domain.Cancion</class>
+        <class>com.kinalfy.models.domain.Genero</class>
+        <class>com.kinalfy.models.domain.InformacionArtista</class>
+        <class>com.kinalfy.models.domain.ListaReproduccion</class>
+        <class>com.kinalfy.models.domain.Persona</class>
+        <class>com.kinalfy.models.domain.Planes</class>
+        <class>com.kinalfy.models.domain.Roles</class>
+        <class>com.kinalfy.models.domain.Tarjeta</class>
+        <class>com.kinalfy.models.domain.Usuario</class>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="use_sql_comments" value="true"/>
+            <property name="hibernate.transaction.jta.platform" value="org.hibernate.service.jta.platform.internal.SunOneJtaPlatform"/>
+        </properties>
+    </persistence-unit>
+</persistence>

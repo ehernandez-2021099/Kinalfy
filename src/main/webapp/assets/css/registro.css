@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  head{
+    background-color: #000;
+  }
+  .form-register {
+    width: 500px;
+
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    font-family: 'calibri';
+
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .titulo{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  #primer-nombre{
+    border-radius: 5px;
+    height: 50px;
+    font-size:18px;
+  }
+  #segundo-nombre{
+    border-radius: 5px;
+    height: 50px;
+    font-size:18px;
+  }
+  #tercer-nombre{
+    border-radius: 5px;
+    height: 50px;
+    font-size:18px;
+  }
+  #primer-apellido{
+    border-radius: 5px;
+    height: 50px;
+    font-size:18px;
+  }
+  #segundo-apellido{
+    border-radius: 5px;
+    height: 50px;
+    font-size:18px;
+  }
+  #correo{
+    border-radius: 5px;
+    height: 50px;
+    font-size:18px; 
+  }
+  .form-register a {
+
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+
+    text-decoration: underline;
+    
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    border: none;
+    padding: 12px;
+ 
+    margin: 16px 0;
+    font-size: 16px;
+    
+  }
+  #pie{
+
+    font-size: 20px;
+    background-color: transparent;
+    color: floralwhite;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabeza{
+  text-align: center;
+
+}
+#submit{
+  text-align: center;
+  border-left: 45px;
+}
+#botonProbar{
+  border-radius: 45px;
+  font-size: 20px;
+
+}
+#titul{
+  font-size: 20px;
+}
+.divs{
+  padding:15px;
+}
+.body{
+  padding: 20px;
+}
+
+

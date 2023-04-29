@@ -1,0 +1,131 @@
+ .body{
+    margin: 0;
+    padding: 0;
+    background: #17202A;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.login {
+    width: 360px;
+    height: 480px;
+    background: #212F3D;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 28px;
+    box-shadow: 8px 5px 5px black;
+}
+
+.login .img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -65px;
+    left: calc(45% - 50px);
+    border: #283747 4px solid;
+    border-radius: 80px 80px 80px 80px;
+}
+
+.login h1 {
+    
+    text-align: center;
+    font-size: 22px;
+}
+
+ .texto  {
+    top: 29%;
+    color: #CACFD2;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.textoP{
+    top: 48%;
+    color: #CACFD2;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ABB2B9;
+    font-size: 16px;
+}
+
+.login input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #5D6D7E;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login input[type="button"]:hover {
+    cursor: pointer;
+    background: #52BE80;
+    color: #000;
+}
+
+.login .content a {
+    text-decoration: none;
+    font-size: 16px;
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.login .content a:hover {
+    color: #F57F17;
+}
+
+.cuenta {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.login label {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+ footer{
+    background: black;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+  /*.line{
+    border-bottom: 1px solid #fff;
+  }*/

@@ -1,0 +1,37 @@
+footer{
+    background: black;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+
+.card-header {
+  background-color:  #212F3C;
+  text-align: center;
+  color:white;
+}
+
+.tabla{
+    background: red;
+}
+
+.btn-outline {
+  color: white;
+  background-color: #34495E;    
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: #85929E;
+  color: #ffffff;
+  border-color: #85929E;
+  
+}
